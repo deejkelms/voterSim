@@ -1,0 +1,10 @@
+require_relative "person"
+class Politician < Person
+  attr_accessor :party
+  def initialize (party)
+    super
+    @party = party
+  end
+
+
+end
